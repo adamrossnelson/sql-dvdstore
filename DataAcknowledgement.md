@@ -14,7 +14,7 @@ The Sakila database was designed as a more comprehensive replacement for the ear
 
 Development of Sakila began in early 2005. Its early design was inspired by a sample database from a Dell whitepaper titled *Three Approaches to MySQL Applications on Dell PowerEdge Servers*. Where Dell’s model represented an online DVD store, Sakila models a DVD rental store, complete with customers, inventory, staff, payments, and rentals.
 
-For information an an archetypal "DVD rental store" model, see the [Dell whitepaper](https://www.dell.com/content/dam/dell-content/pdfs/whitepapers/three-approaches-to-mysql-applications-on-dell-poweredge-servers.pdf) - or the [Blockbuster Wikipedia entry](https://en.wikipedia.org/wiki/Blockbuster_(retailer)).
+For information an an archetypal "DVD rental store" model, see the Dell whitepape *Three Approaches to MySQL Applications on Dell PowerEdge Servers* - or the [Blockbuster Wikipedia entry](https://en.wikipedia.org/wiki/Blockbuster_(retailer)).
 
 The dataset continues to be a widely used resource in MySQL tutorials (and as in the case of this tutorial, SQLite tutorials) and general database education.
 
