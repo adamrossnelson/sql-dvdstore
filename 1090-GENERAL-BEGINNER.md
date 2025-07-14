@@ -100,7 +100,7 @@ Find the solution at the bottom of this tutorial.
 SELECT COUNT(amount)
 FROM payment
 WHERE amount > 8.00;
-````
+```
 
 This query returns the number of payment transactions where the amount was greater than \$8.00.
 
