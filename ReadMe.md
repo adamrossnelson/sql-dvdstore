@@ -1,8 +1,8 @@
 # 📀 Getting Started with the Sakila Database using SQLite3
 
-Welcome! This tutorial will guide you through accessing and exploring the "Sakila" database using the `sqlite3` command-line interface (CLI).
+Welcome! This tutorial will guide you through accessing and exploring the "Sakila" database using the `sqlite3` command-line interface (CLI). Read more about this data here in this repository's [Data Acknodlwedgement](https://github.com/adamrossnelson/sql-dvdstore/blob/main/DataAcknowledgement.md).
 
-## 🍎 How To Use This Resources
+## 🍎 How To Use This Resource
 
 This repository contains a series of tutorial files organized in a progressive learning path for SQL beginners. Here's how to make the most of these resources:
 
@@ -129,6 +129,24 @@ SELECT customer_id, first_name, last_name, email
 FROM customer
 LIMIT 5;
 ```
+
+---
+
+## ✅ Overview of Each Tutorial
+
+* [1010 SELECT DISTINCT](1010-SELECT-DISTINCT.md) - Learn how to retrieve unique values from columns, eliminating duplicate results to find distinct categories and options.
+
+* [1020 COUNT](1020-COUNT.md) - Master the COUNT function to quickly summarize data, count records, and analyze quantities in your database tables.
+
+* [1030 SELECT WHERE](1030-SELECT-WHERE.md) - Discover how to filter query results using comparison and logical operators to find specific data matching your criteria.
+
+* [1040 ORDER BY](1040-ORDER-By.md) - Learn to sort your query results in ascending or descending order based on one or more columns for better organization.
+
+* [1050 BETWEEN and IN](1050-BETWEEN-IN.md) - Simplify range-based and multi-value filtering with these operators that make your queries more concise and readable.
+
+* [1060 LIKE](1060-LIKE.md) - Master pattern matching in text data using wildcards to search for partial matches and text patterns.
+
+* [1090 General Beginner Challenges](1090-GENERAL-BEGINNER.md) - Practice your SQL skills with a series of beginner-friendly challenges covering all the concepts you've learned.
 
 ---
 
