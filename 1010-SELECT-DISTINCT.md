@@ -118,3 +118,7 @@ To return all unique film ratings from the `film` table, the query is:
 ```sql
 SELECT DISTINCT rating
 FROM film;
+```
+
+A plausible business related use case for this query is to understand the variety of movie ratings available in the store’s collection. Are you offering a balanced mix of family-friendly content, teen favorites, and more mature titles? Do your shelves reflect the preferences of your customers? This kind of insight can help the store make informed decisions about what to stock, how to organize genres, and which ratings to emphasize in promotions. On your own, consider what other business questions this query might help answer—perhaps about content gaps or customer demand by rating category.
+

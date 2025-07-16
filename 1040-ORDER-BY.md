@@ -143,3 +143,5 @@ ORDER BY length DESC;
 ```
 
 This query returns all films sorted by duration from longest to shortest.
+
+A plausible business related use case for this query would be identifying the longest films in the catalog to help with planning extended viewing slots or double-feature nights. And consider are you a fan of so-called "epic-length" films? Do you know others who are? This can also support marketing efforts by highlighting epic-length films in a "longest movies" collection or promotion. On your own, consider what other business questions this query might help answer.

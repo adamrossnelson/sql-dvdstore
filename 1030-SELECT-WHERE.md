@@ -154,4 +154,5 @@ WHERE length > 120
 
 This returns all films over 120 minutes long that are rated PG-13 or R.
 
-```
+A plausible business related use case for this query would be identifying longer, more mature films that could be featured in a special late-night or premium screening category. On your own, consider what other business questions this query might help answer.
+

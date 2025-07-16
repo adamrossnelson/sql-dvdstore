@@ -218,3 +218,5 @@ This query combines both operators:
 - `BETWEEN` to find films with rental rates from $0.99 to $2.99 (inclusive)
 
 The results are ordered first by rental rate (cheapest first), then by rental duration.
+
+A plausible business related use case for this query would be identifying budget-friendly films that are available for medium-length rental periods—perfect for customers planning a weekend movie binge. And think about it—do you ever search for the best deal that gives you more time with your rental? Do you know customers who might? This query could support a marketing campaign that highlights "Best Value Rentals" by combining price and duration. On your own, consider how this type of query might also help with pricing strategy or curating a special value section in your catalog.

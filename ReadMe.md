@@ -150,6 +150,18 @@ LIMIT 5;
 
 ---
 
+## 🗂️ To Save Results as a CSV
+
+An added side note to know is that in sqlite3 you can export the result of a query to a csv file using the following command:
+
+```bash
+sqlite3 sakila.db ".mode csv" ".output rentals.csv" "SELECT COUNT(*) FROM rental;"
+```
+
+This will create a file called `rentals.csv` in the current directory with the result of the query. Saving results to a csv is not a common task among these tutorials, however having the ability to do so can be useful for a number of reasons. For example, you might want to save the results of a query to a csv file to import into a spreadsheet program like Excel or Google Sheets. 
+
+--- 
+
 ## 🎉 You’re On Your Way!
 
 You’ve now opened a database, explored its structure, and inspected the data! The Sakila dataset may represent a business model that’s admmittedly no longer common remains apopular resource for learning how relational databases work.

@@ -122,3 +122,5 @@ FROM rental;
 ```
 
 Both queries return the same result, since `rental_id` is a required, non-null field for each row in the table.
+
+A plausible business use case for this query is to understand the total number of rental transactions in the store’s collection. On your own, consider what other business questions this query might help answer. What other counts might be useful to know for you or your manager?
